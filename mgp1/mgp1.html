@@ -4,7 +4,7 @@
         <meta name="author" content="Swasti Mishra">
         
         <title>COSC494 Project Blog</title>
-        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="../stylesheet.css">
         <link rel="icon" href="/imgs/favicon.ico">
     </head>
 
@@ -18,14 +18,172 @@
                 Interactive 8x8 Gaming Machine // Mar 10, 2023
                 <br>
                 Taegun Harshbarger (CoSci) and Swasti Mishra (CoSci)
+                <br><br>
+                <a href="https://github.com/pixelatinate/interactive-tech/tree/main/mgp1">https://github.com/pixelatinate/interactive-tech/tree/main/mgp1</a>
                 <br>
-                Link to Github
+                <a href="https://www.youtube.com/shorts/U_tOimnRXl0">https://www.youtube.com/shorts/U_tOimnRXl0</a>
             </h5>
-            <div class="fakeimg" style="height:200px;">Image</div>
-            <p>
-                
+            <img style="width:1300px; height: 200px; object-fit: cover;" src="../imgs/project-pic.jpg"></img>
+            
+            <div style="padding-top:50px"></div>
 
+            <div class="row">
+                <div class="leftcolumn">
+                    <h3>Overview</h3>
+                    <p>
+                        The idea behind this project was to build the arcade game Stacker on an 8x8 LED matrix. In the original game, one aligns moving rows of lights on top of each other- and in our version, 8 rows of stacked lights results in a victory. 
+                        <br><br>
+                        We decided to build this game after a lengthy brainstorming processes. Other candidates included Pong, Snake, Flappy Bird, Tetris, some type of rhythm game, Frogger, and Space Defender. 
+                        We ultimately chose Stacker because it would translate the best to the LED matrix, allow us to experiment with Arduino code, and give us an opportunity to use the 3D printing facilities on campus. 
+                    </p>
+                </div>
+                <div class="rightcolumn">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/L0A5PABiT5A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+
+
+            <h3>Materials and Parts</h3>
+            <p>
+                The materials used to build this project are listed in the image and table below. 
+                <br><br>
             </p>
+
+            <p style="text-align: center; margin-left: auto; margin-right: auto;">
+                <img width="760" height="605" src="../imgs/IMG_9422.jpg">
+            </p>
+
+            <table style="margin-left: auto; margin-right: auto;">
+                <tr style="background: #aaa;">
+                    <th>Part</th>
+                    <th>Description of the Part's Role</th>
+                    <th>Total Price</th>
+                    <th>Count</th>
+                </tr>
+                <tr>
+                    <td>400 Point Solderless Breadboard</td>
+                    <td>Enables project component connections</td>
+                    <td>$7.49</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Arduino Uno Rev3</td>
+                    <td>Computer that connects to the hardware</td>
+                    <td>$27.60</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Tactile Switch Buttons</td>
+                    <td>Controls the game</td>
+                    <td>$2.50</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>LED Matrix 8x8</td>
+                    <td>Displays the light rows</td>
+                    <td>$3.56</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>470 Ohm Resistor</td>
+                    <td>Limits the flow of electrical current</td>
+                    <td>$0.75</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>Breadboarding Wire</td>
+                    <td>Connects arduino to breadboard</td>
+                    <td>$4.95</td>
+                    <td>33</td>
+                </tr>
+                <tr>
+                    <td>USB 2.0 Cable Type A/B</td>
+                    <td>Enables upload of code from computer to arduino</td>
+                    <td>$7.60</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><b>Total Price</b></td>
+                    <td colspan="2"><b>$54.45</b></td>
+                </tr>
+            </table>
+
+            <h3>Schematic</h3>
+            <p style="text-align:center">
+                <img width="1010" src="../imgs/schematic.png">
+            </p>
+
+            <h3>Sketches</h3>
+            <p>
+                While we didn’t make any circuit diagrams before we started wiring the matrix, we did draw a few sketches for what the faceplate should look like and the components that would be contained inside of it. We also sketched out what the win and lose animations would look like. 
+            </p>
+            <div class="row">
+                <div class="leftcolumn">
+                    <img height="605" src="../imgs/faceplate-sketch.jpg">
+                </div>
+                <div class="rightcolumn">
+                    <img width="500" src="../imgs/animation-sketch.jpg">
+                </div>
+            </div>
+
+            <h3>Brainstorming</h3>
+            <p>
+                To decide what game we would make, we scheduled a room in the library, locked ourselves in for half and hour, listed as many simple games as we could. After that, we went through the list and picked out the best candidates for our project- they were the ones listed above in the overview. We finally settled on Stacker and are pleased with  quality of our final product. 
+                <br><br>
+                We also spent some time brainstorming “inventive input” for the project. Because we’re doing an arcade game, we though about gluing an amiibo to the button, and then we considered gluing a miniature pikachu figure to it. We ended up settling on gluing a tiny pinecone to the button, which went with the fun and playful spirit of the project. 
+            </p>
+
+            <h3>Intermediate Prototypes</h3>
+            <p>
+                Before sending the box STL off to the 3D printer, we made a prototype faceplate using a pasta box. We then measured all of the space between the windows required for the LED matrix and the button. Unfortunately, we reflected the model when we made the STL, which meant that the faceplate didn’t exactly fit. 
+            </p>
+            <div class="row">
+                <div class="leftcolumn">
+                    <img height="500" src="../imgs/barilla-box.jpg">
+                </div>
+                <div class="rightcolumn">
+                    <img width="500" src="../imgs/stl.png">
+                </div>
+            </div>
+
+            <h3>Challenges</h3>
+            <p>
+                We experienced multiple challenges in the building of this project including:
+            </p>
+            <ul>
+            <li><b>Wiring the LED matrix:</b> It took us a very long time to figure out how to wire the LED matrix properly. Through a lot of trial and error and reading of documentation, we were finally able to figure out which pins were which and how to connect them. </li>
+            <li><b>Not having enough Arduino pins to add two colors to the game:</b> An early problem we had was with wanting to add two colors to the game. Unfortunately, we didn’t have enough pins on the Arduino, which meant that we had to limit ourselves to either red or green. It’s possible that we could have achieved two colors by using shift registers, but we weren’t able to solve this problem in the given timeframe. </li>
+            <li><b>Sizing the faceplate:</b> We wanted to make a faceplate to cover the Arduino, wires and breadboards, so we did a lot of measuring and prototyping with a pasta box to get all of the numbers right. Unfortunately, however, when we sent the STL of the faceplate off to the 3D printer, we didn’t realize that the model was reversed- for this reason, we weren’t able to use the faceplate as intended. We’re now using it instead as a “tray” to hold all of the pieces of the project. </li>
+            <li><b>Rewriting the code:</b> The original approach to writing the code used delays to make the lights move and flash, but the second approach that we ended up going with used milliseconds instead. This seems like a minor fix, much of our code had to be rewritten. Further, we started by using a matrix for the lights, and ended with using bitshifting instead. While bitshifting was a lot more complicated, it yielded the results we were looking for. </li>
+            <li><b>Trouble with Reset Pins:</b> Despite our best efforts, there was a period in which the code would fail to upload to the Arduino. We eventually realized that the Reset pin was the troublemaker, and that it would have to be unplugged to upload code. </li>                    
+            </ul>
+            
+            <h3>Future Work Ideas</h3>
+            <p>
+                In the future, we would like to explore using shift registers to add two colors to the game. If we could solve this issue, we could have the loss animation display as red instead of green, or the active row display as red instead of green. Further, we would re-measure the spaces between the buttons and LED matrix to ensure that the faceplate could fit onto the front of the game, and add a notch on the side for the cord to fit into. We would also see if adding shift registers freed up enough pins to add the piezo buzzer as a speaker- we wanted to explore that in this iteration, but ran out of pins. 
+            </p>
+
+            <h3>Thoughts About the Project</h3>
+            <p>
+                We learned a lot in the process of making this project! We specifically learned how to wire an LED matrix, we became more confident in wiring complex circuits, and we learned a lot on the coding side, especially when it comes to coding Arduino. 
+                Further, it was fun to set a goal and work towards it- because Stacker is an established game, the goals for our project were very clear. In this first project, having explicit milestones to work towards helped a lot. 
+            </p>
+
+            <h3>Links to Inspirations, Code Libraries, and Code Samples</h3>
+            <p>
+                We honestly only used a tiny bit of code from the internet. Most of our ideas about how this project should work were scraped together from multiple webpages and our existing knowledge. This website, however, had a small amount of useful code for our end product: <a href="https://docs.arduino.cc/built-in-examples/display/RowColumnScanning">(1)</a>
+                <br><br>
+                Further, we'd like to thank Jacob Malloy for his contributions on the code. He introduced us to the idea of bitshifting and helped walk us through it. 
+            </p>
+
+            <h3>References</h3>
+            <p>
+                <ol>
+                    <li><a href="https://docs.arduino.cc/built-in-examples/display/RowColumnScanning">https://docs.arduino.cc/built-in-examples/display/RowColumnScanning</a></li>
+                    <li><a href="https://www.tinkercad.com/things/3HH2Ll2EfFT-multiplexing">https://www.tinkercad.com/things/3HH2Ll2EfFT-multiplexing</a></li>
+                </ol>
+            </p>
+
         </div>
     
     <div class="footer">
