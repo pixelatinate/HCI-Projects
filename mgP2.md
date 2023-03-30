@@ -3,7 +3,7 @@
 Taegun Harshbarger (CoSci) and Swasti Mishra (CoSci)
 
 https://github.com/pixelatinate/interactive-tech/tree/main/mgp2.md
-<insert youtube link>  
+https://www.youtube.com/watch?v=v1hCRjXQlm8  
   
 ## Overview
 While we brainstormed a lot of ideas for this project, we finally settled on a Sun-Earth-Moon model because Taegun took an interesting Astrology class freshman year and was particularly drawn to the design. We were also excited to do more arts and crafts type of building for this project- as a result, we experimented a lot with pulleys, string, and hot glue, and slightly less with the circuitry. 
