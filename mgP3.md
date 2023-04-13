@@ -60,5 +60,4 @@ This project was super fun, and it was nice to make something with our friend in
 See references! We didn't really use any other inspiration, code libraries, or code samples outside of what has already been cited. 
 	
 ## References
-1. [https://www.nintendo.com/ph/switch/adfu/index.html]()
-2. [https://www.youtube.com/watch?v=JhHSXCLsN4k&feature=youtu.be]()
+1. https://learn.adafruit.com/adafruit-tdk-invensense-icm-20948-9-dof-imu/arduino
