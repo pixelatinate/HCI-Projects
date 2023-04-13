@@ -3,7 +3,10 @@
 Taegun Harshbarger (CoSci) and Swasti Mishra (CoSci)
 
 https://github.com/pixelatinate/interactive-tech/tree/main/mgp3.md
-https://www.youtube.com/watch?v=v1hCRjXQlm8  
+https://youtu.be/iVIEa5zapHI
+<br>
+Code can be found in this repository at MiniGroup3/MiniGroup3.ino
+
   
 ## Overview
 We brainstormed quite a few ideas for this project, but we ultimately ended up going with our first idea, which was to build a skateboard speedometer. We decided to do this project because it seemed to be the most utilitarian- a friend of our's skateboards, and mentioned that he is occasionally curious about how quickly he is moving. Unfortunately, most app-based speedometers are based on GPS location, and because of the way skateboarding is, he doesn't cover a lot of ground in a straight line. We hoped our project would therefore be able to calculate his speed in a different way. 
@@ -43,9 +46,9 @@ The following is a intermediate prototype we did where we tried to figure out wh
 	
 ## Challenges
 * **Wiring the IMU** 
-	* We had less trouble with this project, so really our only issue was trying to wire and calibrate the IMU. It would only calibrate when you plugged and unplugged it at first, which meant that we were confused for a little while about why our error was so large.
+	* We had issues trying to wire and calibrate the IMU. It would only calibrate when you plugged and unplugged it at first, which meant that we were confused for a little while about why our error was so large.
 * **Calculating Speed** 
-	* Despite understanding the speed equation, it took us a little while to properly calculate the speed. This is just because we were confused about how to use the data we received from the IMU. 
+	* Despite understanding the speed equation, it took us a little while to properly calculate the speed. This is because we were trying to calculate the speed from acceleration, and the IMU wouldn't properly calculate this property at first. To circumvent this, we started the program with a 10 second calibration period before calculating speed. 
 
 ## Future Work Ideas
 If we had more time, it may be fun to 3D print a casing for the speedometer. If we could do that, the IMU would be less fragile, and the person riding the skateboard would have more board space to stand on. 
